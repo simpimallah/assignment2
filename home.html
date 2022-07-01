@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        header{
+            width: 100%;
+            min-height: 100px;
+        }
+        header nav{
+            background-color: black;
+            min-height: 30px;
+            padding: 10px;
+            
+        }
+        header nav ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+        }
+        header nav ul li{
+            display: inline;
+            
+            
+        }
+        header nav ul li a{
+            text-decoration: none;
+             padding: 14px 16px;   
+            color: #fff;
+        }
+        .left{
+            float: left;
+            margin-top: -30px;
+            width: 20%;
+            height: 70vh;
+            background-color: yellow;
+            padding: 30px;
+        }
+        .left ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+
+        }
+        .left ul li{
+            padding: 10px;
+            margin-left: 40px;
+           
+           
+        }
+        
+        .right{
+            float: right;
+            margin-top: -30px;
+            background-color: yellow;
+            width: 20%;
+            height: 70vh;
+            padding: 30px;
+        }
+        .right h4{
+            padding: 10px;
+        }
+        .right ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+
+        }
+        .right ul li{
+         padding-right: 10px;
+        }
+        footer{
+            position: relative;
+            background-color: black;
+            min-height: 30px;
+            padding: 10px;
+            margin-top: 37%;
+            
+        }
+        footer p{
+            position: absolute;
+            color: #fff;
+            margin-left: 37%;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!--  2. Create a Navigation bar as shown below (using HTML+CSS) -->
+
+    <header>
+        <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>  
+             <li><a href="#dashboard">Dashboard</a></li>   
+              <li><a href="#about">About Us</a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 3. Add a left section to the above page: -->
+    <div class="left">
+        <h4>Course We offer</h4>
+        <ul style="list-style-type: disc;">
+            <li>  Java full stack</li>
+            <li>Python full stack</li>
+            <li>MEAN MERN full stack</li>
+            <li>Diploma in Softwere Testing</li>
+        </ul>
+    </div>
+    <!-- 4. Add a right section to the page -->
+    <div class="right">
+        <h4>Connect with us</h4>
+        <ul style="list-style-type: disc;">
+            <li> Whatsup </li>
+            <li>Telegram</li>
+            
+        </ul>
+    </div>
+
+    
+    <!-- 5. Finally add a footer to the above exercise -->
+   
+    <footer>
+        <p class="text-center">COPYRIGHT . FIRSTBIT SOLUTIONS PVT LTD. 2022 </p>
+    </footer>
+
+</body>
+</html>
